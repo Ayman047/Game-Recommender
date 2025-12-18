@@ -1,7 +1,6 @@
 # 🎮 Game Recommender
 
-A **Retro-themed Game Recommendation System** built with **Python** and **Streamlit**, designed to give personalized game suggestions based on content similarity. The app features a space-style UI, background video, and retro "Press Start 2P" fonts.
-
+A **Retro-themed Game Recommendation System** built with **Python** and **Streamlit**, designed to give personalized game suggestions based on content similarity.
 ---
 
 ## 🔹 Features
@@ -24,20 +23,6 @@ A **Retro-themed Game Recommendation System** built with **Python** and **Stream
 - **Streamlit** – interactive web app
 - **Pickle** – save/load preprocessed data
 
----
-
-## 📂 Project Structure
-
-Game-Recommender/
-├─ app.py # Streamlit app
-├─ GameRecommender.ipynb # Notebook for data preprocessing & similarity calculation
-├─ games_dict.pkl # Preprocessed game data
-├─ similarity.pkl # Cosine similarity matrix
-├─ assets/
-│ └─ background.mp4 # Background video for the app
-├─ data.csv # Original raw game dataset
-├─ README.md
-└─ .gitignore
 
 
 ---
@@ -67,14 +52,14 @@ streamlit run app.py
 
 1. **Data Preprocessing**
 
--Game metadata is cleaned from data.csv.
--Text from descriptions, developers, publishers, categories, and genres is combined into a single Tags column.
--Stemming and lowercasing are applied for better matching.
+- Game metadata is cleaned from data.csv.
+- Text from descriptions, developers, publishers, categories, and genres is combined into a single Tags column.
+- Stemming and lowercasing are applied for better matching. 
 
 2. **Vectorization**
 
--CountVectorizer converts tags into a numerical matrix.
--Cosine similarity is calculated between all games.
+- CountVectorizer converts tags into a numerical matrix. 
+- Cosine similarity is calculated between all games. 
 
 3. **Recommendation**
 
