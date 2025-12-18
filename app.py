@@ -5,7 +5,7 @@ import base64
 
 
 st.set_page_config(
-    page_title="ProPlay Advisor",
+    page_title="Game Recommender",
     page_icon="🎮",
     layout="wide"
 )
@@ -44,7 +44,7 @@ def set_bg_video(video_path):
 
 
 set_bg_video(
-    r"C:\Users\Ayman\Documents\projects\Game-Recommender\Game-Recommendation-System-main\assets\background.mp4"
+    r"C:\Users\Ayman\Documents\projects\Game-Recommender\assets\background.mp4"
 )
 
 
