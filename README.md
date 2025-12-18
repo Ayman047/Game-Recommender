@@ -63,12 +63,12 @@ streamlit run app.py
 
 3. **Recommendation**
 
--Select a game from the app.
--The system finds the top 5 most similar games using cosine similarity.
+- Select a game from the app.
+- The system finds the top 5 most similar games using cosine similarity.
 
 ## 💡 Future Improvements
 
--Add user ratings or play history for personalized collaborative filtering.
--Integrate Steam API to fetch live data.
--Add search by genre or developer in addition to title-based recommendations.
--Improve UI animations for a more immersive retro experience.
+- Add user ratings or play history for personalized collaborative filtering.
+- Integrate Steam API to fetch live data.
+- Add search by genre or developer in addition to title-based recommendations.
+- Improve UI animations for a more immersive retro experience.
